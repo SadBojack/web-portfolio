@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, main {
+    background-color: #FAF9F6;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+#landing-section {
+    height: 100vh;
+}
+
+#landing-section h1, #landing-section h3 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#landing-section > div {
+    min-height: 50%;
+}
+
+#projects-section {
+    min-height: 100vh;
+}
+
+.card-size {
+    width: 20rem;
+}
+
+#tools-section {
+    min-height: 100vh;
+}
+
+#contact-section {
+    min-height: 100vh;
+}
+
+.description{
+    height: 100%;
+    width: 100%;
+}
+
+.tools-btn > img:hover {
+    opacity: 0.3;
+}
+
